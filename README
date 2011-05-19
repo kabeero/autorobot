@@ -1,0 +1,10 @@
+Description: Arduino code for autonomous, self-charging robot
+Author: M. Kabeer Gharzai
+Class: Senior Design Fall 2010, Group 39
+School: University of Nebraska, Lincoln
+Purpose:
+Designed a robot that could charge itself using RF communication and infrared LED detection and ultrasonic distance calculation.
+Robot communicates with a USB-attached XBee to a computer that transmits commands to the robot, such as scan, stop, or repeat.
+Sensors send back information including transmitting beacon and alignment beacon angle readings and approximate distances.
+Car speed and turning behavior are modified upon approach to the charging station.  Within 6 inches of making contact,
+the robot significantly lowers its speed and allows fishtailing to improve turning and reliability.
